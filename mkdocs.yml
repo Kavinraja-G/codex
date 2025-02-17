@@ -14,18 +14,24 @@ theme:
     text: Roboto
     code: JetBrains Mono
   palette:
-    - scheme: slate
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      accent: deep orange
-
-    - scheme: default
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
-        icon: material/weather-night
-        name: Light mode
-      primary: blue
-      accent: deep orange
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
   features:
     - header.autohide
     - content.action.edit
@@ -72,7 +78,7 @@ copyright: |
 
 nav:
   - About:
-    - About Me: index.md
+    - 👋 Hola amigo!: index.md
   - Projects:
       - Nodegizmo: projects/nodegizmo.md
       - Crossplane Docs: projects/crossplane-docs.md
