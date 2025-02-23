@@ -2,6 +2,7 @@
 title: Monitoring RPi using Grafana Cloud & Alloy
 date: 2025-02-22
 updated: 2025-02-22
+comments: true
 authors: [kavin]
 categories:
 - HomeLab

@@ -1,3 +1,6 @@
+---
+comments: false
+---
 A small command-line utility for your Kubernetes nodes.
 
 ## Installation
