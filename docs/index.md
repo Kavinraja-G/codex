@@ -3,8 +3,6 @@ comments: false
 hide:
   - toc
 ---
-I'm a Cloud Enthusiast and DevOps Advocate. From engineering resilient Cloud ecosystems to crafting custom Kubernetes solutions and beyond. Always up for a challenge - turning complex cloud-native puzzles into streamlined, secure & cost-efficient solutions.
+I’m a Cloud Enthusiast and DevOps Advocate passionate about building resilient cloud ecosystems and crafting custom Kubernetes solutions. I thrive on solving complex cloud-native challenges and transforming them into secure, cost-efficient, and scalable systems. My journey is driven by continuous learning, mentoring, and an unwavering pursuit of innovation 🚀
 
-My journey is about constant up-skilling, mentoring, and a relentless pursuit of innovation 🚀
-
-And currently working as a Senior Engineer - Cloud & DevOps @[Presidio](https://www.presidio.com/)
+Currently working as a **Senior Site Reliability Engineer** at a **Confidential Identity Company**. Formerly with [Presidio](https://www.presidio.com/)
