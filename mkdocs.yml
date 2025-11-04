@@ -97,5 +97,6 @@ nav:
   - Projects:
       - Nodegizmo: projects/nodegizmo.md
       - Crossplane Docs: projects/crossplane-docs.md
+      - Local PV Cleaner: projects/local-pv-cleaner.md
   - Blogs:
       - blog/index.md
