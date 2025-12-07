@@ -44,13 +44,13 @@ Below is a high-level overview of how my Pangolin setup integrates with my homel
 
 From the [docs](https://docs.pangolin.net/self-host/quick-install#prerequisites):
 
-  1. Linux server with root access and public IP address
-  2. Domain name pointing to your server’s IP address for the dashboard
-  3. Email address for Let’s Encrypt SSL certificates and admin log in
+  1. Linux server with root access and public IP address.
+  2. Domain name pointing to your server’s IP address for the dashboard.
+  3. Email address for Let’s Encrypt SSL certificates and admin login for the dashboard.
   4. Open ports on firewall for 80 (TCP), 443 (TCP), 51820 (UDP), and 21820 (UDP for clients)
 
 ### Pangolin Server – runs on my VPS
-This is the only public-facing part of the setup. I don't want to explain every detail of deloying the server itself, I deployed it on my VPS using Docker Compose as mentioned in docs [here](https://docs.pangolin.net/self-host/manual/docker-compose), and it listens for incoming traffic from the internet. All site, resources routing rules and service mappings are configured in Pangolin Dashboard once deployed.
+This is the only public-facing part of the setup. I don't want to explain every detail of deploying the server itself, I deployed it on my VPS using Docker Compose as mentioned in docs [here](https://docs.pangolin.net/self-host/manual/docker-compose), and it listens for incoming traffic from the internet. All site, resources routing rules and service mappings are configured in Pangolin Dashboard once deployed.
 
 Respective `config.yml` for the server.
 ```yaml
